@@ -1,0 +1,384 @@
+# =============================================================================
+# Python & Development Environment
+# =============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# =============================================================================
+# Virtual Environments & Package Management
+# =============================================================================
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.env/
+
+# Poetry
+poetry.lock
+poetry.toml
+
+# Pipenv
+Pipfile.lock
+
+# UV package manager
+uv.lock
+.pdm-python
+.pdm-build/
+
+# Conda
+environment.yml.lock
+
+# =============================================================================
+# Environment Variables & Configuration
+# =============================================================================
+
+# Environment files (contains sensitive data)
+.env
+.env.local
+.env.development
+.env.production
+.env.staging
+.env.test
+.envrc
+
+# Configuration files that may contain secrets
+config.local.yaml
+config.secret.yaml
+*.secret.yaml
+secrets/
+
+# =============================================================================
+# IDEs & Editors
+# =============================================================================
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains IDEs (PyCharm, IntelliJ, etc.)
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# =============================================================================
+# Operating System Files
+# =============================================================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.nfs*
+
+# =============================================================================
+# Data Science & Machine Learning Specific
+# =============================================================================
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb
+
+# Jupyter Book
+_build/
+
+# Data files (add specific patterns based on your data structure)
+data/raw/*.csv
+data/raw/*.json
+data/raw/*.xlsx
+data/raw/*.parquet
+data/processed/*.pkl
+data/processed/*.pickle
+data/processed/*.h5
+data/processed/*.hdf5
+
+# Model files (large binary files)
+*.model
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.pb
+models/*.ckpt*
+models/*.meta
+models/*.index
+models/*.data-*
+*.pth
+*.tar
+*.zip
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# =============================================================================
+# Logging & Temporary Files
+# =============================================================================
+
+# Log files
+*.log
+logs/
+debug/
+*.debug
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+cache/
+.cache/
+
+# Test temporary files
+test_*.tmp
+debug_*.log
+*.test
+
+# =============================================================================
+# Build & Compilation Artifacts
+# =============================================================================
+
+# C extensions
+*.so
+
+# Cython debug symbols
+cython_debug/
+
+# Static analysis & linting
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# =============================================================================
+# Documentation
+# =============================================================================
+
+# Sphinx documentation
+docs/_build/
+docs/.doctrees/
+
+# MkDocs
+/site
+
+# =============================================================================
+# Docker & Containerization
+# =============================================================================
+
+# Docker
+.dockerignore
+Dockerfile.local
+docker-compose.override.yml
+.docker/
+
+# =============================================================================
+# CI/CD & Cloud Services
+# =============================================================================
+
+# GitHub Actions
+.github/workflows/*.local.yml
+
+# Cloud provider configs (if containing sensitive data)
+.aws/
+.gcp/
+.azure/
+
+# =============================================================================
+# Project Specific Exclusions
+# =============================================================================
+
+# GPU/CUDA specific temporary files
+*.cu.cache
+*.nvcc.cache
+
+# Genetic Algorithm specific outputs
+ga_results/
+optimization_logs/
+checkpoint_*.json
+
+# RIS (Reverse Influence Sampling) specific
+ris_cache/
+sampler_temp/
+
+# Network analysis temporary files
+network_cache/
+graph_*.pkl
+
+# Evaluation results that are regenerated
+evaluation_results/
+metrics_output/
+benchmark_*.json
+
+# =============================================================================
+# Security & Sensitive Data
+# =============================================================================
+
+# SSH keys
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+*.pem
+*.key
+*.p12
+*.pfx
+
+# API keys and tokens
+.secrets
+api_keys.txt
+tokens.json
+credentials.json
+
+# =============================================================================
+# Performance & Profiling
+# =============================================================================
+
+# Profiling data
+*.prof
+*.cprof
+.coverage.*
+coverage.xml
+
+# Memory profiling
+*.mprof
+
+# =============================================================================
+# Package Management Cache
+# =============================================================================
+
+# pip
+.pip/
+pip-wheel-metadata/
+
+# setuptools
+.eggs/
+
+# =============================================================================
+# Miscellaneous
+# =============================================================================
+
+# Backup files
+*.bak
+*.backup
+*.old
+*~
+
+# Archive files (unless specifically needed)
+*.tar.gz
+*.tgz
+*.zip
+*.rar
+*.7z
+
+# Large media files (unless part of dataset)
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.mp3
+*.wav
+*.flac
+
+# System files
+.fuse_hidden*

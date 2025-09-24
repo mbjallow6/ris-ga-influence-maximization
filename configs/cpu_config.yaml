@@ -1,0 +1,23 @@
+device: cpu
+random_seed: 42
+log_level: INFO
+
+ris:
+  theta: 2000
+  epsilon: 0.1
+  max_iterations: 100
+  parallel_workers: 15
+
+ga:
+  population_size: 150
+  generations: 80
+  crossover_rate: 0.8
+  mutation_rate: 0.1
+  tournament_size: 3
+  elite_size: 5
+
+objectives:
+  influence_weight: 0.4
+  cost_weight: 0.3
+  equity_weight: 0.3
+  time_weight: 0.0

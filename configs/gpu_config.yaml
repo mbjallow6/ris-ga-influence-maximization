@@ -1,0 +1,22 @@
+device: gpu
+random_seed: 42
+log_level: INFO
+
+ris:
+  theta: 5000
+  epsilon: 0.05
+  max_iterations: 200
+
+ga:
+  population_size: 200
+  generations: 100
+  crossover_rate: 0.8
+  mutation_rate: 0.1
+  tournament_size: 5
+  elite_size: 10
+
+objectives:
+  influence_weight: 0.4
+  cost_weight: 0.3
+  equity_weight: 0.3
+  time_weight: 0.0
