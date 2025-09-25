@@ -4,4 +4,4 @@ from .network import HealthNetwork
 from .loader import NetworkLoader
 from .preprocessor import NetworkPreprocessor
 
-__all__ = ['HealthNetwork', 'NetworkLoader', 'NetworkPreprocessor']
+__all__ = ["HealthNetwork", "NetworkLoader", "NetworkPreprocessor"]
